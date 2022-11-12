@@ -16,7 +16,7 @@ contract SydPoke is ERC721{
     Pokemon[] public pokemons;
     address public gameOwner;
 
-    constructor () ERC721 ("SydPokr", "SydPoke"){
+    constructor () ERC721 ("SydPoke", "SPK"){
 
         gameOwner = msg.sender;
 
